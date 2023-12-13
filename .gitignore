@@ -102,6 +102,8 @@ tools/*
 !tools/toc
 !tools/toc/*
 !tools/helloworld
+!tools/collaborativeTools
+!tools/collaborativeTools/*
 
 # Macintosh OS
 .DS_Store

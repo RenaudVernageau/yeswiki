@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plugin name="wikiCollaborativeTools" version="0.2" active="1">
+  <author>Sarah HITIER</author>
+  <label>Collaborative Tools</label>
+  <desc>Permet d'intégrer des outils collaboratifs à YesWiki</desc>
+</plugin>

@@ -1,0 +1,11 @@
+parameters:
+  templates_editable_config_params:
+    - meta_keywords
+    - meta_description
+    - meta:
+        - robots
+
+services:
+  _defaults:
+    autowire: true
+    public: true
