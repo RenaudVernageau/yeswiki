@@ -1,0 +1,58 @@
+label: _t(AB_collaborativetools_label)
+position: 1
+previewHeight: 300px
+actions:
+  hedgedoc:
+    label: HedgeDoc
+    description: _t(AB_attach_video_description)
+    hint: _t(AB_attach_video_hint)
+    properties:
+      serveur:
+        label: _t(AB_attach_video_serveur_label)
+        type: list
+        required: true
+        value: peertube
+        options:
+          peertube: PeerTube
+          youtube: Youtube
+          vimeo: Vimeo
+      peertubeinstance:
+        label: _t(AB_attach_video_peertubeinstance_label)
+        showif:
+          serveur: peertube
+        type: url
+        advanced: true
+      id:
+        label: _t(AB_attach_video_id_label)
+        type: text
+        required: true
+        value: 1f5bfc59-998b-41b3-9be3-e8084ad1a2a1
+      ratio:
+        label: _t(AB_attach_video_ratio_label)
+        type: list
+        advanced: true
+        default: ""
+        options:
+          "": 16/9
+          4par3: 4/3
+      largeurmax:
+        label: _t(AB_attach_video_largeur_max_label)
+        type: number
+        advanced: true
+      hauteurmax:
+        label: _t(AB_attach_video_hauteur_max_label)
+        type: number
+        advanced: true
+      class:
+        label: Classe
+        type: class
+        subproperties:
+          position:
+            label: _t(AB_attach_video_position_label)
+            type: list
+            advanced: true
+            default: ""
+            options:
+              "": standard
+              pull-left: _t(AB_LEFT)
+              pull-right: _t(AB_RIGHT)
