@@ -1,1 +1,10 @@
-<a href="{{ url }}" target="_blank">Nouveau HedgeDoc</a>
+<a href="{{ url }}" title="{{ hovertext }}" class="{{ class }}" {% if newwindow %} target="_blank" {% endif %}>
+	{% if icon %}
+		{% if icon matches '/\s/' %}
+			<i class="{{ icon }}"></i>
+		{% else %}
+			<i class="icon-{{ icon }} fa fa-{{ icon }}"></i>
+		{% endif %}
+	{% endif %}
+	{{ text }}
+</a>

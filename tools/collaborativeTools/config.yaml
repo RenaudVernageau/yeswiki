@@ -1,4 +1,8 @@
 parameters:
+  # Adresse HedgeDoc par défaut
+  hedgedoc_url: "http://localhost:3000/new"
+  scrumblr_url: "http://localhost:8081/"
+
   templates_editable_config_params:
     - meta_keywords
     - meta_description

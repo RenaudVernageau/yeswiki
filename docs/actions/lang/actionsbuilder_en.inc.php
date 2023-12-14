@@ -473,4 +473,11 @@ return [
     "AB_bazartableau_columnswidth_width_label" => "Width",
     "AB_bazartableau_exportallcolumns_label" => "Also export hidden columns",
     "AB_bazartableau_displayimagesasthumbnails_label" => "Display images as thumbnails",
+
+    // Collaborative tools
+    "AB_collaborativeTools_label" => "Collaborative Tools",
+    "AB_collaborativeTools_hedgedoc_description" => "A collaborative note-taking tool",
+    "AB_collaborativeTools_hedgedoc_button_value" => "New HedgeDoc",
+    "AB_collaborativeTools_scrumblr_description" => "A collaborative whiteboard",
+    "AB_collaborativeTools_scrumblr_field_name_label" => "Board Name",
 ];

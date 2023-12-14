@@ -477,5 +477,9 @@ return [
     "AB_bazartableau_displayimagesasthumbnails_label" => "Afficher les images sous forme de vignette",
 
     // Collaborative tools
-    "AB_collaborativetools_label" => "Outils collaboratifs",
+    "AB_collaborativeTools_label" => "Outils collaboratifs",
+    "AB_collaborativeTools_hedgedoc_description" => "Un outil de prise de note collaboratif",
+    "AB_collaborativeTools_hedgedoc_button_value" => "Nouveau HedgeDoc",
+    "AB_collaborativeTools_scrumblr_description" => "Un tableau blanc collaboratif",
+    "AB_collaborativeTools_scrumblr_field_name_label" => "Nom du tableau",
 ];

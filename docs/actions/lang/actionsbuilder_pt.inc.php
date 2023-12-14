@@ -473,4 +473,11 @@ return [
     "AB_bazartableau_columnswidth_width_label" => "Largura",
     "AB_bazartableau_exportallcolumns_label" => "Exportação também colunas escondidas",
     // "AB_bazartableau_displayimagesasthumbnails_label" => "Afficher les images sous forme de vignette",
+
+    // Collaborative tools
+    "AB_collaborativeTools_label" => "Ferramentas Colaborativas",
+    "AB_collaborativeTools_hedgedoc_description" => "Uma ferramenta colaborativa de anotações",
+    "AB_collaborativeTools_hedgedoc_button_value" => "Novo HedgeDoc",
+    "AB_collaborativeTools_scrumblr_description" => "Um quadro branco colaborativo",
+    "AB_collaborativeTools_scrumblr_field_name_label" => "Nome do quadro",
 ];
