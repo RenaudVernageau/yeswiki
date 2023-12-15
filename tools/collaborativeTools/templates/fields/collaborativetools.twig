@@ -4,10 +4,8 @@
 	{{ value|raw }}
 
 	{% if value == "hedgeDoc" %}
-		{% set hedgeDocUrl = "http://localhost:8081/" %}
-		{% include "@collaborativeTools/hedgedoc.twig" with {'url': hedgeDocUrl} %}
+		{% include "@collaborativeTools/hedgedoc.twig" with {'url': url} %}
 	{% elseif value == "scrumblr" %}
-		{% set scrumblrUrl = "http://localhost:8081/" %}
-		{% include "@collaborativeTools/scrumblr.twig" with {'url': scrumblrUrl} %}
+		{% include "@collaborativeTools/scrumblr.twig" with {'url': url} %}
 	{% endif %}
 {% endblock %}
